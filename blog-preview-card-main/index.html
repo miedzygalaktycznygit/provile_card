@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Figtree">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: hsl(47, 88%, 63%);
+      font-family:'Frigate', sans-serif;
+      height: 100%;
+      margin: 0;
+
+    }
+
+    .container {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 35rem;
+      min-width: 27rem;
+    }
+
+    main {
+      height: 34rem;
+      width: 25rem;
+      background-color: white;
+      display: grid;
+      place-items: center;
+      border-radius: 1.4rem;
+      border-color: black;
+      border-width: 0.1rem;
+      border-style: solid;
+      box-shadow:  10px 10px 0 0  rgb(0, 0, 0, 1);
+      margin-inline: 1rem;
+    }
+
+    .image {
+      height: 13rem;
+      width: 22rem;
+      text-align: center;
+      padding-top: 1.4rem;
+    }
+
+    img {
+      border-radius: 1.4rem;
+      width: 100%;
+    }
+
+    .text {
+      padding-top: 1.5rem;
+      height: 17rem;
+      width: 22rem;
+      font-weight: 800;
+    }
+
+    .title {
+      height: 2rem;
+      width: 6rem;
+      background-color: hsl(47, 88%, 63%);
+      text-align: center;
+      line-height: 2rem;
+      border-radius: 0.4rem;
+      font-weight: 800;
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      font-weight: 800;
+    }
+
+    .avatar {
+      width: 2rem;
+      height: 2rem;
+      text-align: left;
+      margin-right: 0.5rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <main>
+      <div class="image">
+          <img src="assets/images/illustration-article.svg">
+      </div>
+      <div class="text">
+        <div class="title">
+          Learning
+        </div>
+        <h5>Published 21 Dec 2023</h5>
+        <h2>HTML & CSS foundations</h2>
+        <h5 style="color: gray; word-spacing: 0.3rem; line-height: 1.2rem;">These languages are the backbone of every website, defining structure, content, and presentation.</h5>
+        <img src="assets/images/image-avatar.webp" class="avatar">
+        <h5 style="display: inline-block; margin-top: 0rem; margin-bottom: 0rem; position: relative; bottom: 0.6rem; font-weight: 800;">Greg Hooper</h5>
+      </div>
+      
+    </main>
+  </div>
+
+</body>
+</html>
